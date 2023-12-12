@@ -41,7 +41,6 @@ class ProductManager {
 }
 
 
-
   updateProduct(id, updatedFields) {
     const index = this.products.findIndex((p) => p.id === id);
 
